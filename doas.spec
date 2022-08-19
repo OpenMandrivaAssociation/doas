@@ -12,6 +12,7 @@ Provides: opendoas = %{EVRD}
 BuildRequires: pkgconfig(pam)
 BuildRequires: sed
 BuildRequires: make
+BuildRequires: byacc
 
 %description
 A tool to run commands as a different user.
