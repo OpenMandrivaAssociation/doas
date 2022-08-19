@@ -10,6 +10,8 @@ License: BSD
 Group: System/Base
 Provides: opendoas = %{EVRD}
 BuildRequires: pkgconfig(pam)
+BuildRequires: sed
+BuildRequires: make
 
 %description
 A tool to run commands as a different user.
