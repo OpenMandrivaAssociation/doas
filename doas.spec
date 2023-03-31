@@ -1,6 +1,6 @@
 Name: doas
 Version: 6.8.2
-Release: 1
+Release: 2
 Source0: https://github.com/Duncaen/OpenDoas/releases/download/v%{version}/opendoas-%{version}.tar.xz
 Source1: doas.pam
 Source2: doas.conf
