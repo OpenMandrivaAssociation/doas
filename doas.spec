@@ -9,6 +9,10 @@ URL: https://github.com/Duncaen/OpenDoas
 License: BSD
 Group: System/Base
 Provides: opendoas = %{EVRD}
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires: pkgconfig(pam)
 BuildRequires: sed
 BuildRequires: make
